@@ -1,0 +1,8 @@
+@import url('./views/preview-app-list-view.css');
+@import url('lumo-css-framework/all-classes.css');
+@import url('line-awesome/dist/line-awesome/css/line-awesome.min.css');
+@import url('@fontsource/roboto-mono');    html {
+      --lumo-border-radius: calc(var(--lumo-size-m) / 2);
+--lumo-font-family: Roboto Mono;
+
+    }
