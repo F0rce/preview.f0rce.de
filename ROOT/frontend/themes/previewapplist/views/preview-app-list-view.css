@@ -30,6 +30,11 @@
   width: var(--lumo-size-xl);
 }
 
+.preview-app-list-view .description {
+  margin-top: var(--lumo-space-xs);
+  margin-bottom: var(--lumo-space-xs);
+}
+
 .preview-app-list-view .header {
   align-items: baseline;
 }
@@ -48,25 +53,5 @@
 .preview-app-list-view .post {
   color: var(--lumo-secondary-text-color);
   font-size: var(--lumo-font-size-s);
-  margin-bottom: var(--lumo-space-s);
   white-space: normal;
-}
-
-.preview-app-list-view .actions {
-  align-items: center;
-}
-
-.preview-app-list-view .icon {
-  color: var(--lumo-tertiary-text-color);
-  height: calc(var(--lumo-icon-size-s) * 0.8);
-  margin-right: var(--lumo-space-s);
-  width: calc(var(--lumo-icon-size-s) * 0.8);
-}
-
-.preview-app-list-view .likes,
-.preview-app-list-view .comments,
-.preview-app-list-view .shares {
-  color: var(--lumo-tertiary-text-color);
-  font-size: var(--lumo-font-size-xs);
-  margin-right: var(--lumo-space-l);
 }

@@ -1,5 +1,7 @@
 package de.f0rce.preview.applist.views.previewapplist;
 
+import com.vaadin.flow.component.dialog.Dialog;
+
 public class PreviewApp {
 
 	private String image;
@@ -7,12 +9,13 @@ public class PreviewApp {
 	private String version;
 	private String post;
 	private String url;
+	private Dialog links; // for later use
 
 	public PreviewApp() {
 	}
 
 	public String getImage() {
-		return image;
+		return this.image;
 	}
 
 	public void setImage(String image) {
@@ -20,7 +23,7 @@ public class PreviewApp {
 	}
 
 	public String getName() {
-		return name;
+		return this.name;
 	}
 
 	public void setName(String name) {
@@ -28,7 +31,7 @@ public class PreviewApp {
 	}
 
 	public String getVersion() {
-		return version;
+		return this.version;
 	}
 
 	public void setVersion(String version) {
@@ -36,7 +39,7 @@ public class PreviewApp {
 	}
 
 	public String getPost() {
-		return post;
+		return this.post;
 	}
 
 	public void setPost(String post) {
@@ -44,7 +47,7 @@ public class PreviewApp {
 	}
 
 	public String getUrl() {
-		return url;
+		return this.url;
 	}
 
 	public void setUrl(String url) {

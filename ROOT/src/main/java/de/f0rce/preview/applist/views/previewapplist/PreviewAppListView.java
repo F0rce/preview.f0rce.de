@@ -26,12 +26,12 @@ public class PreviewAppListView extends Div implements AfterNavigationObserver {
 	Grid<PreviewApp> grid = new Grid<>();
 
 	public PreviewAppListView() {
-		addClassName("preview-app-list-view");
-		setSizeFull();
-		grid.setHeight("100%");
-		grid.addThemeVariants(GridVariant.LUMO_NO_BORDER, GridVariant.LUMO_NO_ROW_BORDERS);
-		grid.addComponentColumn(app -> createCard(app));
-		add(grid);
+		this.addClassName("preview-app-list-view");
+		this.setSizeFull();
+		this.grid.setHeight("100%");
+		this.grid.addThemeVariants(GridVariant.LUMO_NO_BORDER, GridVariant.LUMO_NO_ROW_BORDERS);
+		this.grid.addComponentColumn(app -> this.createCard(app));
+		this.add(this.grid);
 	}
 
 	private HorizontalLayout createCard(PreviewApp previewApp) {
@@ -42,6 +42,7 @@ public class PreviewAppListView extends Div implements AfterNavigationObserver {
 
 		Image image = new Image();
 		image.setSrc(previewApp.getImage());
+
 		VerticalLayout description = new VerticalLayout();
 		description.addClassName("description");
 		description.setSpacing(false);
@@ -73,12 +74,12 @@ public class PreviewAppListView extends Div implements AfterNavigationObserver {
 		List<PreviewApp> persons = Arrays.asList( //
 				createApp(
 						"https://static.vaadin.com/directory/user402520/icon/file6703307351609158308_1617024863123file456055440023195234_1579352673914ace-field-widget-screenshot-1_0.png",
-						"Ace", "1.3.2", "Fast and Lightweight Ace Editor (https://ace.c9.io/) for Vaadin 14+",
+						"Ace", "1.3.3", "Fast and Lightweight Ace Editor (https://ace.c9.io/) for Vaadin 14+",
 						"https://preview.f0rce.de/ace"));
 
-		grid.setItems(persons);
+		this.grid.setItems(persons);
 
-		grid.addItemClickListener(e -> {
+		this.grid.addItemClickListener(e -> {
 			UI.getCurrent().getPage().setLocation(e.getItem().getUrl());
 		});
 	}
