@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/java,maven,node,vaadin
-# Edit at https://www.toptal.com/developers/gitignore?templates=java,maven,node,vaadin
+# Created by https://www.toptal.com/developers/gitignore/api/vaadin,node,macos,windows,maven,java
+# Edit at https://www.toptal.com/developers/gitignore?templates=vaadin,node,macos,windows,maven,java
 
 ### Java ###
 # Compiled class file
@@ -26,6 +26,35 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
 ### Maven ###
 target/
@@ -170,33 +199,30 @@ dist
 .vaadin-designer
 .designer
 
-### macOS ###
-# General
-.DS_Store
-.AppleDouble
-.LSOverride
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
 
-# Icon must end with two \r
-Icon
+# Dump file
+*.stackdump
 
+# Folder config file
+[Dd]esktop.ini
 
-# Thumbnails
-._*
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Windows shortcuts
+*.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/java,maven,node,vaadin
+# End of https://www.toptal.com/developers/gitignore/api/vaadin,node,macos,windows,maven,java
