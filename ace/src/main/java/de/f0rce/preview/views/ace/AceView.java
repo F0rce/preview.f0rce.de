@@ -35,7 +35,7 @@ public class AceView extends VerticalLayout {
 				"public class HelloWorld {\n\tpublic HelloWorld() {\n\t\tSystem.out.println(\"Hello World :)\");\n\t}\n}");
 
 		contextMenu.setTarget(ace);
-		contextMenu.addItem("Version: 1.3.2");
+		contextMenu.addItem("Version: 2.2.0");
 
 		// Comboboxes
 
