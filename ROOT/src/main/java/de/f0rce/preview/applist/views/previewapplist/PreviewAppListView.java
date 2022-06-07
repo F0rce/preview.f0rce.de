@@ -74,7 +74,7 @@ public class PreviewAppListView extends Div implements AfterNavigationObserver {
 		List<PreviewApp> persons = Arrays.asList( //
 				createApp(
 						"https://static.vaadin.com/directory/user402520/icon/file6703307351609158308_1617024863123file456055440023195234_1579352673914ace-field-widget-screenshot-1_0.png",
-						"Ace", "1.3.3", "Fast and Lightweight Ace Editor (https://ace.c9.io/) for Vaadin 14+",
+						"Ace", "2.2.0", "Fast and Lightweight Ace Editor (https://ace.c9.io/) for Vaadin 14 & 23",
 						"https://preview.f0rce.de/ace"));
 
 		this.grid.setItems(persons);

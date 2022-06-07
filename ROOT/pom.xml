@@ -6,12 +6,12 @@
     <groupId>de.f0rce.preview.applist</groupId>
     <artifactId>previewapplist</artifactId>
     <name>Project base for Spring Boot and Vaadin Flow</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>war</packaging>
 
     <properties>
         <java.version>8</java.version>
-        <vaadin.version>14.6.8</vaadin.version>
+        <vaadin.version>14.8.11</vaadin.version>
     </properties>
 
     <parent>
